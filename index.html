@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head profile="http://gmpg.org/xfn/11">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Komunikator</title>
+
+    <script src="ajax.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link href="emoji/stylesheets/jquery.cssemoticons.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="emoji/javascripts/jquery.cssemoticons.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.text').emoticonize({
+                animate: false,
+            });
+        })
+    </script>
+</head>
+
+<body>
+    <div id="login">
+        <div id="loginPanel">
+            <img src="img/u.png" alt="test" width="90vw">
+            Zaloguj się do chatu
+            <input id="nick" type="texst" placeholder="nick...">
+            <button id="dolacz" type="submit">DOŁĄCZ</button>
+        </div>
+    </div>
+
+    <div id="communicator">
+            <h1 class="text" id="large">KOMUNIKATOR V. O</h1>
+            <div id="form">
+                <div id="ta1"></div>
+                <div id="a1">
+                    <textarea name="textarea" id="ta2" cols="30" rows="1" placeholder="@ja: 'Hello, my dear friends!"></textarea>
+                    <button type="submit" id="send">Wyślij </button>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+body {
+    overflow: hidden;
+    background-color: rgba(108, 109, 106, 0.267);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+#ta1 {
+    width: 80%;
+    border: 1px solid #888;
+    border-radius: 5px;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-y: scroll;
+}
+
+.messages {
+    border-bottom: 1px solid rgba(209, 209, 209, 0.952);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 5px;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    width: 20%;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    border: 1px solid rgb(139, 211, 31);
+    transition: 2s;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ta2 {
+    width: 75%;
+    background: url(icon.png) center center;
+    border: 1px solid #888;
+}
+
+#a1 {
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-family: 'Poiret One', cursive;
+}
+
+#login {
+    background-color: rgb(225, 243, 247);
+    height: 100vh;
+    background-image: url('img/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+#loginPanel {
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.98);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.95);
+}
+
+#dolacz, input {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid silver;
+}
+
+input:active, input:focus  {
+    border: 1px solid greenyellow;  
+}
+
+input {
+    background-color: rgb(240,240,240);
+    margin-top: 30px;
+}
+
+img {
+    border: greenyellow 2px dotted;
+    border-radius: 100px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
